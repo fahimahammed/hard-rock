@@ -24,7 +24,7 @@ const displaySongs = songs => {
             <p class="author lead">Album by <span>${song.artist.name}</span></p>
             <audio controls>
                 <source src="${song.preview}" type="audio/ogg">
-                Your browser does not support the audio element.
+                
             </audio>
         </div>
         <div class="col-md-3 text-md-right text-center">
